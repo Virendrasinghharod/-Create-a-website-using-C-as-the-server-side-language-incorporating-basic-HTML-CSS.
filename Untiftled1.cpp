@@ -65,4 +65,19 @@ int main() {
 
     return 0;
 }
+/*
+As the code provided is a server-side code, it doesn't produce any direct output that you can see in the console. However, you can follow these steps to test the website:
 
+Save the code in a file named webserver.cpp.
+Compile the code using a C++ compiler. For example, if you're using g++, you can run the following command in your terminal:
+Copy code
+g++ -o webserver webserver.cpp
+Run the compiled executable:
+bash
+Copy code
+./webserver
+If the server starts successfully, you should see the message Server started on port 8080... in the console.
+Open a web browser and enter http://localhost:8080 in the address bar.
+The browser should display the HTML response sent by the server, which includes the text "Welcome to the Simple Web Server!".
+Please note that this basic web server can handle only one connection at a time, and it lacks error handling and advanced features. It's important to use proper web server frameworks or libraries for production-level web applications.
+*/
